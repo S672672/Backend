@@ -8,16 +8,16 @@ const BackButton = () => {
       onClick={() => navigate(-1)} // Navigate to the previous page
       style={{
         padding: '10px 20px',
-        fontSize: '16px',
-        backgroundColor: '#3498db',
-        color: '#fff',
+        fontSize: '30px',
+        backgroundColor: 'white',
+        color: 'black',
         border: 'none',
         borderRadius: '5px',
         cursor: 'pointer',
         marginBottom: '10px',
       }}
     >
-      ← Back
+      ←
     </button>
   );
 };

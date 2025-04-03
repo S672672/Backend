@@ -1,7 +1,7 @@
 // models/Employee.js
 const mongoose = require('mongoose');
 
-const employeeSchema = new mongoose.Schema({
+const employeSchema = new mongoose.Schema({
   name: { type: String, required: true },
   photo: { type: String, required: true }, // Store image URL
   department: { type: String, required: true },
@@ -21,4 +21,4 @@ const employeeSchema = new mongoose.Schema({
   leavesTaken: { type: Number, default: 0 }
 }, { timestamps: true });
 
-module.exports = mongoose.model('Employee', employeeSchema);
+module.exports = mongoose.model('Employe', employeSchema);
